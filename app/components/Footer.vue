@@ -38,51 +38,8 @@
         </div>
       </div>
 
-      <!-- Links Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
-        <div>
-          <h4 class="text-white font-semibold mb-4">Platform</h4>
-          <ul class="space-y-2">
-            <li><a href="#" class="hover:text-white transition duration-200">Features</a></li>
-            <li><a href="#" class="hover:text-white transition duration-200">Pricing</a></li>
-            <li><a href="#" class="hover:text-white transition duration-200">For Students</a></li>
-            <li><a href="#" class="hover:text-white transition duration-200">For Teachers</a></li>
-          </ul>
-        </div>
-        
-        <div>
-          <h4 class="text-white font-semibold mb-4">Resources</h4>
-          <ul class="space-y-2">
-            <li><a href="#" class="hover:text-white transition duration-200">Blog</a></li>
-            <li><a href="#" class="hover:text-white transition duration-200">Webinars</a></li>
-            <li><a href="#" class="hover:text-white transition duration-200">Documentation</a></li>
-            <li><a href="#" class="hover:text-white transition duration-200">Community</a></li>
-          </ul>
-        </div>
-        
-        <div>
-          <h4 class="text-white font-semibold mb-4">Company</h4>
-          <ul class="space-y-2">
-            <li><a href="#" class="hover:text-white transition duration-200">About Us</a></li>
-            <li><a href="#" class="hover:text-white transition duration-200">Careers</a></li>
-            <li><a href="#" class="hover:text-white transition duration-200">Press</a></li>
-            <li><a href="#" class="hover:text-white transition duration-200">Partners</a></li>
-          </ul>
-        </div>
-        
-        <div>
-          <h4 class="text-white font-semibold mb-4">Legal</h4>
-          <ul class="space-y-2">
-            <li><a href="#" class="hover:text-white transition duration-200">Privacy Policy</a></li>
-            <li><a href="#" class="hover:text-white transition duration-200">Terms of Service</a></li>
-            <li><a href="#" class="hover:text-white transition duration-200">Cookie Policy</a></li>
-            <li><a href="#" class="hover:text-white transition duration-200">GDPR</a></li>
-          </ul>
-        </div>
-      </div>
-
       <!-- Social Links -->
-      <div class="flex flex-col md:flex-row justify-between items-center border-t border-gray-800 pt-8">
+      <div class="flex flex-col md:flex-row justify-between items-center">
         <div class="flex space-x-4 mb-6 md:mb-0">
           <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition duration-200 group">
             <svg class="w-5 h-5 text-gray-400 group-hover:text-white" fill="currentColor" viewBox="0 0 24 24">

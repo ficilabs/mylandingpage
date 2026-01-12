@@ -8,7 +8,7 @@
       <div style="background: #F56666;" class="w-5 h-5 rounded-full absolute z-0 right-52 bottom-1 animate-ping"></div>
     </div>
     <div data-aos="fade-down" class="md:w-5/12 mt-20 md:mt-0 text-gray-500">
-      <h1 class="text-2xl font-semibold text-darken lg:pr-40">A <span class="text-yellow-500">user interface</span> designed for the classroom</h1>
+      <h1 class="text-2xl font-semibold text-darken lg:pr-40">Kenapa <span class="text-yellow-500">harus kita!</span></h1>
       <div class="flex items-center space-x-5 my-5">
         <div class="flex-shrink bg-white shadow-lg rounded-full p-3 flex items-center justify-center">
           <svg class="w-4 h-4" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">

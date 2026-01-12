@@ -4,12 +4,12 @@
 			<!--Left Col-->
 			<div class="flex flex-col w-full lg:w-6/12 justify-center lg:pt-24 items-start text-center lg:text-left mb-5 md:mb-0">
 				<h1 data-aos="fade-right" data-aos-once="true" class="my-4 text-5xl font-bold leading-tight text-darken">
-					<span class="text-yellow-500">Konsultan</span> Technology
+					<span class="text-yellow-500">Ide Skripsi</span> Belum Jelas?
 				</h1>
-				<p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="leading-normal text-2xl mb-8">Skilline is an interesting platform that will teach you in more an interactive way</p>
+				<p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="leading-normal text-2xl mb-8">Pendampingan akademik untuk membantu kamu menemukan ide proyek yang relevan dan realistis.</p>
 				<div data-aos="fade-up" data-aos-once="true" data-aos-delay="700" class="w-full md:flex items-center justify-center lg:justify-start md:space-x-5">
 					<button class="lg:mx-0 bg-yellow-500 text-white text-xl font-bold rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
-						Join for free
+						Konsultasi Gratis
 					</button>
 					<div class="flex items-center justify-center space-x-3 mt-5 md:mt-0 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
 						<button class="bg-white w-14 h-14 rounded-full flex items-center justify-center">
@@ -46,7 +46,7 @@
 			<svg class="xl:h-40 xl:w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
 				<path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" fill="currentColor"></path>
 			</svg>
-			<div class="bg-white w-full h-20 -mt-px"></div>
+			<div class="bg-white w-full h-10 -mt-px"></div>
 		</div>
 	</div>
 </template>
