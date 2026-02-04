@@ -75,13 +75,21 @@
 
 <script setup lang="ts">
 import { ref, watch } from 'vue'
-import { chatWithCounselor } from '~/services/gemini'
 
 const isOpen = ref(false)
 const input = ref('')
 const messages = ref<{role: 'user' | 'bot', text: string}[]>([])
 const loading = ref(false)
 const scrollRef = ref<HTMLDivElement | null>(null)
+
+// Mock AI response (replace with real API later if needed)
+const getBotResponse = async (userMsg: string) => {
+  return new Promise<string>((resolve) => {
+    setTimeout(() => {
+      resolve(`You asked: "${userMsg}". Here's some advice from your AI tutor!`)
+    }, 800) // simulate API delay
+  })
+}
 
 const handleSend = async () => {
   if (!input.value.trim()) return
@@ -92,10 +100,10 @@ const handleSend = async () => {
   loading.value = true
 
   try {
-    const response = await chatWithCounselor(userMsg)
-    messages.value.push({ role: 'bot', text: response || 'Sorry, I am a bit confused right now.' })
+    const response = await getBotResponse(userMsg)
+    messages.value.push({ role: 'bot', text: response })
   } catch {
-    messages.value.push({ role: 'bot', text: "Error connecting to tutor. Please check your API key." })
+    messages.value.push({ role: 'bot', text: "Error generating response." })
   } finally {
     loading.value = false
   }
