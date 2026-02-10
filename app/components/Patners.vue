@@ -1,5 +1,5 @@
 <template>
-  <section class="border-y-[3px] border-black bg-white py-12">
+  <section class="border-y-[3px] border-black bg-white py-3">
     <div class="max-w-7xl mx-auto px-6 overflow-hidden">
       <div
         class="flex items-center justify-between gap-12 opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all cursor-default"

@@ -1,17 +1,17 @@
 <template>
-  <section class="py-24 px-6 max-w-7xl mx-auto text-center">
-    <h2 class="text-4xl md:text-5xl font-black mb-4 text-black">Your Learning, Made Better</h2>
+  <section class="py-10 px-6 max-w-7xl mx-auto text-center">
+    <h2 class="text-4xl md:text-5xl font-black mb-4 text-black">Kemampuan</h2>
     <p class="text-gray-700 font-bold mb-16 max-w-2xl mx-auto">
-      SkillWise offers superior classes, flexible learning, and industrial mentors to help you grow at your own pace, on your own terms.
+      Kita menawarkan berbagai kemampuan unggulan untuk membantu kamu mencapai tujuan belajar dan karier di bidang teknologi.
     </p>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-8">
       <div 
         v-for="f in FEATURES" 
         :key="f.id"
         :class="[
           'p-8 rounded-2xl border-[3px] border-black text-left flex flex-col items-start neo-shadow neo-shadow-hover transition-all',
-          f.id === '4' ? 'bg-[#0ea5e9] text-white' : 'bg-white text-black'
+          f.id === '1' ? 'bg-[#0ea5e9] text-white' : 'bg-white text-black'
         ]"
       >
         <div 
@@ -20,7 +20,7 @@
           {{ f.icon }}
         </div>
         <h3 class="text-xl font-black mb-4">{{ f.title }}</h3>
-        <p :class="['font-bold text-sm', f.id === '4' ? 'text-blue-50' : 'text-gray-700']">
+        <p :class="['font-bold text-sm', f.id === '1' ? 'text-blue-50' : 'text-gray-700']">
           {{ f.description }}
         </p>
       </div>
@@ -40,30 +40,23 @@ interface Feature {
 const FEATURES: Feature[] = [
   {
     id: '1',
-    title: 'Expert Instructors',
+    title: 'Artificial Intelligence',
     description: 'Learn directly from experienced mentors and industry professionals.',
     icon: '👨‍🏫',
     color: '#fee2e2'
   },
   {
     id: '2',
-    title: 'Structured Materials',
+    title: 'Internet of Things',
     description: 'From beginner to expert levels, our curriculum is tailored to every need.',
     icon: '📚',
     color: '#e0e7ff'
   },
   {
     id: '3',
-    title: 'Flexible Learning',
+    title: 'Web Development',
     description: 'Study anytime, anywhere. No dead-lines, no pressure.',
     icon: '⏰',
-    color: '#fef3c7'
-  },
-  {
-    id: '4',
-    title: 'Official Certificates',
-    description: 'Earn certificates recognized by top companies to boost your career.',
-    icon: '🎓',
     color: '#0ea5e9'
   }
 ]

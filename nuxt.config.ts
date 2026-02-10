@@ -5,10 +5,7 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
-  modules: [
-    '@nuxtjs/tailwindcss',
-    '@storyblok/nuxt',
-  ],
+  modules: ['@nuxtjs/tailwindcss', '@storyblok/nuxt', '@nuxt/image'],
 
   /* HTTPS DEV SERVER (Vite) */
   vite: {

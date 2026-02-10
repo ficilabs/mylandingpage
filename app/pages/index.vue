@@ -1,4 +1,3 @@
 <template>
-  <Hero />
-  <Patners />
+  <Features />
 </template>

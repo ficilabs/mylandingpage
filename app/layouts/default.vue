@@ -1,7 +1,9 @@
 <template>
-  <div className="min-h-screen text-black bg-[#fcfcfc] selection:bg-[#0ea5e9] selection:text-white">
+  <div class="min-h-screen text-black bg-[#fcfcfc] selection:bg-[#0ea5e9] selection:text-white">
     <Navbar />
-    <slot />
+      <main>
+        <slot />
+      </main>
     <Footer />
   </div>
 </template>
